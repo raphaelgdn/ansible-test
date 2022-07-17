@@ -1,7 +1,7 @@
 - name: Criando novos usuarios
   hosts: all
   vars_files:
-    - ./users.yml
+    - ./user.yml
   tasks:
     - name: adding several users
       user:
