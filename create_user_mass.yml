@@ -1,0 +1,13 @@
+---
+- name: create users from csv file
+  hosts: all
+  tasks:
+   - name: reading the csv file
+     read_csv:
+      path: username.csv
+     register: user_list
+     delegate_to: localhost
+
+   - name: display user_list data
+     debug:
+      var: user_list.list
