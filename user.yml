@@ -1,0 +1,13 @@
+users:
+  - name: testuser3
+    comment: testuser3
+    groups: wheel
+  - name: testuser4
+    comment: testuser4
+    groups: users
+  - name: testuser5
+    comment: testuser5
+    groups: users
+  - name: testuser6
+    comment: testuser6
+    groups: users
